@@ -9,11 +9,11 @@ This project has been tested to build an run on Ubuntu 18.04.1 but should work i
 **Ubuntu Desktop:** 18.04.1
 **Install Options:**
 * Minimal installation
-** Download updates while installing Ubuntu: Yes
-** Install third-party software for grapics and Wi-Fi hardware and addtional media formats
+  * Download updates while installing Ubuntu: Yes
+  * Install third-party software for grapics and Wi-Fi hardware and addtional media formats
 * Erase disk and install Ubuntu
-** Encrypt the new Ubuntu installation for security: No
-** Use LVM ith the new Ubuntu installation: No
+  * Encrypt the new Ubuntu installation for security: No
+  * Use LVM ith the new Ubuntu installation: No
 
 ## Update
 sudo apt update
@@ -29,3 +29,13 @@ sudo apt install docker.io
 sudo systemctl enable docker
 sudo usermod -aG docker <user>
 sudo reboot
+
+# Games
+
+## Teeworlds 0.7.2
+Stuggling to get the steam client working in Windows 10. Use direct download instead.
+https://www.teeworlds.com/?page=downloads
+
+## Track Mania
+Fix for running in steam on windows 10 found here.
+https://steamcommunity.com/sharedfiles/filedetails/?id=448953593
