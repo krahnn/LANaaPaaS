@@ -31,6 +31,8 @@ sudo usermod -aG docker <user>
 sudo reboot
 
 # Games
+## CSGO
+https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 
 ## Teeworlds 0.7.2
 Stuggling to get the steam client working in Windows 10. Use direct download instead.
