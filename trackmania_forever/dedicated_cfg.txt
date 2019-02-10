@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<dedicated>
+
+  <authorization_levels>
+    <level>
+      <name>SuperAdmin</name>
+      <password>SuperAdmin</password>
+    </level>
+    <level>
+      <name>Admin</name>
+      <password>Admin</password>
+    </level>
+    <level>
+      <name>User</name>
+      <password>User</password>
+    </level>
+  </authorization_levels>
+	
+  <server_options>
+    <name>soda</name>
+    <comment>"I could do this all day."</comment>
+
+    <hide_server>0</hide_server>
+
+    <max_players>32</max_players>
+    <password></password>
+    <max_spectators>32</max_spectators>
+    <password_spectator></password_spectator>
+
+
+
+    <ladder_mode>forced</ladder_mode>
+    <ladder_serverlimit_min>0</ladder_serverlimit_min>
+    <ladder_serverlimit_max>50000</ladder_serverlimit_max>		
+
+    <enable_p2p_upload>True</enable_p2p_upload>
+    <enable_p2p_download>True</enable_p2p_download>
+		
+    <callvote_timeout>60000</callvote_timeout>
+    <callvote_ratio>0.5</callvote_ratio>
+    <callvote_ratios>
+        <voteratio command="Ban" ratio="0.65"/>
+    </callvote_ratios>
+
+    <allow_challenge_download>True</allow_challenge_download>
+    <autosave_replays>False</autosave_replays>
+    <autosave_validation_replays>False</autosave_validation_replays>
+
+    <referee_password></referee_password>
+    <referee_validation_mode>0</referee_validation_mode>
+
+    <use_changing_validation_seed>False</use_changing_validation_seed>
+  </server_options>
+	
+  <system_config>
+    <connection_uploadrate>1024</connection_uploadrate>
+    <connection_downloadrate>8192</connection_downloadrate>
+
+    <force_ip_address></force_ip_address>
+    <server_port>2350</server_port>
+    <server_p2p_port>3450</server_p2p_port>
+    <client_port>3455</client_port>
+    <bind_ip_address></bind_ip_address>
+    <use_nat_upnp></use_nat_upnp>
+
+    <p2p_cache_size>600</p2p_cache_size>
+    
+    <xmlrpc_port>5000</xmlrpc_port>
+    <xmlrpc_allowremote>False</xmlrpc_allowremote>
+		
+    <blacklist_url></blacklist_url>
+    <guestlist_filename></guestlist_filename>
+    <blacklist_filename></blacklist_filename>
+		
+    <packmask>stadium</packmask>
+
+    <allow_spectator_relays>False</allow_spectator_relays>
+
+    <use_proxy>False</use_proxy>
+    <proxy_login></proxy_login>
+    <proxy_password></proxy_password>
+  </system_config>
+
+</dedicated>
+
