@@ -16,19 +16,19 @@ This project has been tested to build an run on Ubuntu 18.04.1 but should work i
   * Use LVM ith the new Ubuntu installation: No
 
 ## Update
-`sudo apt update
-sudo apt upgrade
-sudo reboot`
+  `sudo apt update
+  sudo apt upgrade
+  sudo reboot`
 
 ## Addtional SW and Tools
-`sudo apt install vim ssh make`
+  `sudo apt install vim ssh make`
 
 ## Docker Setup
 **Note:** Using verson from Ubuntu's repo. Not latest docker-ce
-`sudo apt install docker.io
-sudo systemctl enable docker
-sudo usermod -aG docker <user>
-sudo reboot`
+  `sudo apt install docker.io
+  sudo systemctl enable docker
+  sudo usermod -aG docker <user>
+  sudo reboot`
 
 # Games
 ## CSGO
