@@ -1,5 +1,17 @@
 # Local Area Network as a Party as a Service (LANaaPaaS)
-Annual LAN Party Setup Documents, Scripts, and Docker Files
+LAN Party Setup Documents, Scripts, and Docker Files
+
+
+# Quick Start
+Each game directory has a make file that will perform the following:
+* `make build` - Build a local image of the containers using the docker file
+* `make run` - Pull the container, if needed, and run it
+* `make stop` - Stop the corresponding container
+* `make start` - Start a container that was run once
+* `make clean` - Remove the container
+
+To just get something running right away, clone the project and run `make build`
+
 
 # Server Setup
 This project has been tested to build an run on Ubuntu 18.04.1 but should work in most Linux enviornments with docker. The following captures all steps from a fresh install of Ubuntu to server running.
@@ -7,6 +19,7 @@ This project has been tested to build an run on Ubuntu 18.04.1 but should work i
 
 ## OS Install
 **Ubuntu Desktop:** 18.04.1
+
 **Install Options:**
 * Minimal installation
   * Download updates while installing Ubuntu: Yes
