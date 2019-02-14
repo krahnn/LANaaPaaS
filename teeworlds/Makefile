@@ -4,23 +4,23 @@ build:
 
 run:
 	docker run -d \
-		-v $(PWD)/tdm/:/tee/cfg/ \
+		-v $(PWD)/tdm/:/opt/teeworlds/cfg/ \
 		-p 8303:8303/udp \
-		--name teeworlds-tdm \
+		--name teeworlds_tdm \
 		krahnn/teeworlds:1.0
 
 	docker run -d \
-		-v $(PWD)/ctf/:/tee/cfg/ \
+		-v $(PWD)/ctf/:/opt/teeworlds/cfg/ \
 		-p 8304:8303/udp \
-		--name teeworlds-ctf \
+		--name teeworlds_ctf \
 		krahnn/teeworlds:1.0
 
-start: # run?
-	docker start teeworlds-tdm teeworlds-ctf
+start:
+	docker start teeworlds_tdm teeworlds_ctf
 
 
 stop:
-	docker stop teeworlds-tdm teeworlds-ctf
+	docker stop teeworlds_tdm teeworlds_ctf
 
 clean:
-	docker rm -f teeworlds-tdm teeworlds-ctf
+	docker rm -f teeworlds_tdm teeworlds_ctf

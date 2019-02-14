@@ -45,7 +45,7 @@
   <startindex>0</startindex>
 
   <challenge>
-    <file>/tmnf/GameData/Tracks/Campaigns/Nations/Green/B01-Race.Challenge.Gbx</file>
+    <file>Campaigns/Nations/Green/B01-Race.Challenge.Gbx</file>
     <ident>8oDWqaNMXpyFg6e_QUb07Wzpkk3</ident>
   </challenge>
 
