@@ -1,4 +1,8 @@
 
+NAME=chivalry
+
+include ../common.mk
+
 build:
 	docker build -t krahnn/chivalry:1.0 .
 
@@ -7,15 +11,6 @@ run:
 		-v $(PWD)/cfg:/home/steam/LANaaPaaS/ \
 		-p 8000:8000/udp \
 		-p 27015:27015/udp \
-		--name chivalry \
+		--name ${NAME} \
 		krahnn/chivalry:1.0
-
-start:
-	docker start chivalry
-
-stop:
-	docker stop chivalry
-
-clean:
-	docker rm -f chivalry
 

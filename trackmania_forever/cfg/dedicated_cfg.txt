@@ -5,20 +5,20 @@
   <authorization_levels>
     <level>
       <name>SuperAdmin</name>
-      <password>SuperAdmin</password>
+      <password>nobaddies</password>
     </level>
     <level>
       <name>Admin</name>
-      <password>Admin</password>
+      <password>nobaddies</password>
     </level>
     <level>
       <name>User</name>
-      <password>User</password>
+      <password>nobaddies</password>
     </level>
   </authorization_levels>
 	
   <server_options>
-    <name>soda</name>
+    <name>LANaaPaaS</name>
     <comment>"I could do this all day."</comment>
 
     <hide_server>0</hide_server>
@@ -54,8 +54,8 @@
   </server_options>
 	
   <system_config>
-    <connection_uploadrate>1024</connection_uploadrate>
-    <connection_downloadrate>8192</connection_downloadrate>
+    <connection_uploadrate>8192</connection_uploadrate>
+    <connection_downloadrate>102400</connection_downloadrate>
 
     <force_ip_address></force_ip_address>
     <server_port>2350</server_port>

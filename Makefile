@@ -1,7 +1,6 @@
 
 SUB_DIRS = \
 	chivalry \
-	csgo \
 	teeworlds \
 	trackmania_forever \
 	$()
