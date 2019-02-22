@@ -16,7 +16,13 @@
       <password>nobaddies</password>
     </level>
   </authorization_levels>
-	
+
+  <masterserver_account>
+    <login></login>
+    <password></password>
+    <nation></nation>
+  </masterserver_account>
+
   <server_options>
     <name>LANaaPaaS</name>
     <comment>"I could do this all day."</comment>
@@ -67,13 +73,13 @@
     <p2p_cache_size>600</p2p_cache_size>
     
     <xmlrpc_port>5000</xmlrpc_port>
-    <xmlrpc_allowremote>False</xmlrpc_allowremote>
+    <xmlrpc_allowremote>True</xmlrpc_allowremote>
 		
     <blacklist_url></blacklist_url>
     <guestlist_filename></guestlist_filename>
     <blacklist_filename></blacklist_filename>
 		
-    <packmask>stadium</packmask>
+    <packmask>nations</packmask>
 
     <allow_spectator_relays>False</allow_spectator_relays>
 
