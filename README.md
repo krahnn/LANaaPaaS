@@ -63,7 +63,17 @@ Stuggling to get the steam client working in Windows 10. Use direct download ins
 https://www.teeworlds.com/?page=downloads
 
 
-## Track Mania
+## TrackMania Nations Forever
+### Server
+The server setup has two parts. The first is the core server running the game setup based on the following thread.
+http://www.tm-forum.com/viewtopic.php?t=14203
+
+The second is the Xaseco PHP controller script for advanced features like multiple teams.
+https://www.xaseco.org/overview.php
+
+http://www.gamers.org/tmf/quickstart.html#xaseco
+
+### Client
 Fix for running in steam on windows 10 found here.
 https://steamcommunity.com/sharedfiles/filedetails/?id=448953593
 
