@@ -8,9 +8,12 @@ Each game directory has a make file that will perform the following:
 * `make run` - Pull the container, if needed, and run it
 * `make stop` - Stop the corresponding container
 * `make start` - Start a container that was run once
+* `make restart` - Stop then start the container
 * `make clean` - Remove the container
 
-To just get something running right away, clone the project and run `make build`
+To just get something running right away, clone the project and execute `make run`
+
+All containers will mount the config files in the game directory when they launch. You can modify the config files and run `make restart` to restart the containers with updated configs.
 
 
 # Server Setup
@@ -50,13 +53,26 @@ sudo reboot
 ```
 
 # Games
+
 ## CSGO
 https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
+
 
 ## Teeworlds 0.7.2
 Stuggling to get the steam client working in Windows 10. Use direct download instead.
 https://www.teeworlds.com/?page=downloads
 
+
 ## Track Mania
 Fix for running in steam on windows 10 found here.
 https://steamcommunity.com/sharedfiles/filedetails/?id=448953593
+
+
+## Chivalry
+Built based on cm2network/steamcmd container and instructions form thread below.
+https://forums.tornbanner.com/topic/21416/native-linux-server-available/
+
+Sever configuration is better documented here.
+https://forums.tornbanner.com/topic/7805/dedicated-server-download-and-configuration-guide
+
+
