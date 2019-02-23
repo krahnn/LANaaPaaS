@@ -54,27 +54,32 @@ sudo reboot
 
 # Games
 
-## CSGO
-https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
-
-
 ## Teeworlds 0.7.2
-Stuggling to get the steam client working in Windows 10. Use direct download instead.
+Teeworlds runs two parallel servers. One for Team Deathmatch and one for Capture the Flag. The teeworlds application and setup is well documented. The client doesn't seem to work in steam on Windows 10. Use direct download instead.
 https://www.teeworlds.com/?page=downloads
 
 
 ## TrackMania Nations Forever
-### Server
-The server setup has two parts. The first is the core server running the game setup based on the following thread.
+The TrackMania server is setup to run in team mode. It requires the base server, the Xaseco controller, and the teamrace plugin. The sites and documentation used to setup the server are catprued below.
+
+### Server Setup
+This is the best guide I found for server setup.
+http://www.gamers.org/tmf/quickstart.html#xaseco
+
+The first is the core server running the game setup based on the following thread.
 http://www.tm-forum.com/viewtopic.php?t=14203
 
 The second is the Xaseco PHP controller script for advanced features like multiple teams.
 https://www.xaseco.org/overview.php
 
+The third is a plugin to enable teamrace.
 http://www.gamers.org/tmf/quickstart.html#xaseco
 
+ToDo: The teamrace plugin doesn't start automatically. A player with an admin login needs to run "/teamrace on" (Space for chat)
+
+
 ### Client
-Fix for running in steam on windows 10 found here.
+Steam and Windows 10 don't seem to play nicely with Trackmania Nations Forever. Fix documented below.
 https://steamcommunity.com/sharedfiles/filedetails/?id=448953593
 
 
@@ -86,3 +91,5 @@ Sever configuration is better documented here.
 https://forums.tornbanner.com/topic/7805/dedicated-server-download-and-configuration-guide
 
 
+## CSGO
+https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
