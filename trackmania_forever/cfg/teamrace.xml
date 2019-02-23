@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<game>
+		
+		<!-- GAME PLAY OPTIONS -->
+		<Teams>3</Teams> <!-- max. 8 -->
+		<Players>8</Players> <!-- min. 1 -->
+		<Points>10,7,7,5,5,5,3,3,3,1,1,1</Points>
+		<Rounds>5</Rounds> <!-- Number of rouns in a competition -->
+    		
+		<!-- SERVER OPTIONS -->
+		<WU_duration>0</WU_duration> <!-- TeanRace warmup , multiplier for authortime, 1,2 or 3 -->
+		<WU_default>0</WU_default> <!-- Non TeamRace Warmup -->
+		<Select_Time>15</Select_Time> <!-- Time for Team Selection Peroid -->
+		<Team_Locking>true</Team_Locking> <!-- If players can lock teams -->
+		<Fufi_Toggle>false</Fufi_Toggle> <!-- Force Toggle Fufi record widgets -->
+
+	</game>
+
+	<Teams>
+		<team1>$f00Donkers</team1>
+		<team2>$0f0Dinkers</team2>
+		<team3>$0ffDoinkers</team3>
+	</Teams>
+</settings>
