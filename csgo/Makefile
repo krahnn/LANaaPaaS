@@ -8,6 +8,7 @@ build:
 
 run:
 	docker run -d \
+		--net=host \
 		--name ${NAME} \
 		krahnn/csgo:1.0
 
