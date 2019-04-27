@@ -3,8 +3,14 @@ SUB_DIRS = \
 	chivalry \
 	teeworlds \
 	trackmania_forever \
+	csgo \
 	$()
 
-build run start stop clean:
-	$(MAKE) $(MAKECMDGOALS) -C $(SUB_DIRS)
+
+
+.PHONY: all build run start stop clean restart
+all build run start stop clean restart:
+	for i in "$(SUB_DIRS)" ; do \
+		$(MAKE) -C $$i $(MAKECMDGOALS); \
+	done
 
