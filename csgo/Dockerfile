@@ -41,4 +41,4 @@ workdir ${GAME_PATH}
 
 expose 27015 27020 27005 51840
 
-cmd ./srcds_run -game csgo -console -autoupdate -steam_dir /home/steam/steamcmd/ -steamcmd_script ${GAME_PATH}/csgo_update.txt -usercon +fps_max $SRCDS_FPSMAX -tickrate $SRCDS_TICKRATE -port $SRCDS_PORT -tv_port $SRCDS_TV_PORT -maxplayers_override $SRCDS_MAXPLAYERS +game_type 0 +game_mode 1 +mapgroup mg_active +map de_dust2 +rcon_password $SRCDS_RCONPW
+cmd ./srcds_run -game csgo -console -autoupdate -steam_dir /home/steam/steamcmd/ -steamcmd_script ${GAME_PATH}/csgo_update.txt -usercon -fps_max $SRCDS_FPSMAX -tickrate $SRCDS_TICKRATE -port $SRCDS_PORT -tv_port $SRCDS_TV_PORT -maxplayers_override $SRCDS_MAXPLAYERS -game_type 0 +game_mode 1 -mp_warmuptime 30 -mapgroup mg_active -map de_dust2 -rcon_password $SRCDS_RCONPW

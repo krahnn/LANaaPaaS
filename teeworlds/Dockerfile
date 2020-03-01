@@ -12,7 +12,7 @@ run apt-get clean autoclean && \
 
 # Get the pre built version of the game
 run mkdir -p /opt/teeworlds/local_data
-arg TEE_VERSION=0.7.2
+arg TEE_VERSION=0.7.4
 arg TEE_DOWNLOAD=https://github.com/teeworlds/teeworlds/releases/download/
 arg TEE_TAR=teeworlds-${TEE_VERSION}-linux_x86_64.tar.gz
 run wget ${TEE_DOWNLOAD}/${TEE_VERSION}/${TEE_TAR} && \

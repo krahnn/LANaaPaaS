@@ -3,16 +3,16 @@
 <playlist>
   <gameinfos>
     <game_mode>0</game_mode>
-    <chat_time>1000</chat_time>
-    <finishtimeout>10</finishtimeout>
+    <chat_time>15000</chat_time>
+    <finishtimeout>30000</finishtimeout>
     <allwarmupduration>0</allwarmupduration>
     <disablerespawn>0</disablerespawn>
     <forceshowallopponents>0</forceshowallopponents>
-    <rounds_pointslimit>50</rounds_pointslimit>
+    <rounds_pointslimit>20</rounds_pointslimit>
     <rounds_usenewrules>0</rounds_usenewrules>
     <rounds_forcedlaps>0</rounds_forcedlaps>
     <rounds_pointslimitnewrules>5</rounds_pointslimitnewrules>
-    <team_pointslimit>50</team_pointslimit>
+    <team_pointslimit>20</team_pointslimit>
     <team_maxpoints>6</team_maxpoints>
     <team_usenewrules>0</team_usenewrules>
     <team_pointslimitnewrules>5</team_pointslimitnewrules>

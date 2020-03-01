@@ -6,11 +6,11 @@ SUB_DIRS = \
 	csgo \
 	$()
 
+GOAL = $(MAKECMDGOALS)
 
+all build run start stop clean restart: $(SUB_DIRS)
 
-.PHONY: all build run start stop clean restart
-all build run start stop clean restart:
-	for i in "$(SUB_DIRS)" ; do \
-		$(MAKE) -C $$i $(MAKECMDGOALS); \
-	done
+$(SUB_DIRS):
+	$(MAKE) -C $@ $(GOAL) 
 
+.PHONY: all build run start stop clean restart $(SUB_DIRS)

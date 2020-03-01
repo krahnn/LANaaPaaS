@@ -8,7 +8,7 @@ build:
 
 run:
 	docker run -d \
-		-v $(PWD)/cfg/:/home/steam/LANaaPaaS/ \
+		-v $(CURDIR)/cfg/:/home/steam/LANaaPaaS/ \
 		-p 8000:8000/udp \
 		-p 27015:27015/udp \
 		--name ${NAME} \

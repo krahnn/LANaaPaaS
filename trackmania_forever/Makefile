@@ -8,7 +8,7 @@ build:
 
 run:
 	docker run -d \
-		-v $(PWD)/cfg:/opt/tmf/cfg/ \
+		-v $(CURDIR)/cfg:/opt/tmf/cfg/ \
 		-p 2350:2350/tcp \
 		-p 2350:2350/udp \
 		-p 3450:3450/tcp \

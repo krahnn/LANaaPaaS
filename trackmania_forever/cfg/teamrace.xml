@@ -4,7 +4,7 @@
 		
 		<!-- GAME PLAY OPTIONS -->
 		<Teams>3</Teams> <!-- max. 8 -->
-		<Players>8</Players> <!-- min. 1 -->
+		<Players>5</Players> <!-- min. 1 -->
 		<Points>10,7,7,5,5,5,3,3,3,1,1,1</Points>
 		<Rounds>5</Rounds> <!-- Number of rouns in a competition -->
     		
@@ -18,8 +18,8 @@
 	</game>
 
 	<Teams>
-		<team1>$f00Donkers</team1>
-		<team2>$0f0Dinkers</team2>
-		<team3>$0ffDoinkers</team3>
+		<team1>$f00Kyleeeeee</team1>
+		<team2>$0f0DICKWONKERS</team2>
+		<team3>$0ffDumbfuckers</team3>
 	</Teams>
 </settings>
