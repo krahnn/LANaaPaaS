@@ -17,11 +17,11 @@ All containers will mount the config files in the game directory when they launc
 
 
 # Server Setup
-This project has been tested to build an run on Ubuntu 18.04.1 but should work in most Linux enviornments with docker. The following captures all steps from a fresh install of Ubuntu to server running.
+This project has been tested to build an run on Ubuntu 18.04.1 & 20.04 but should work in most Linux enviornments with docker. The following captures all steps from a fresh install of Ubuntu to server running.
 **TODO:** Automate OS install via preseeding or kickstart?
 
 ## OS Install
-**Ubuntu Desktop:** 18.04.1
+**Ubuntu Desktop:** 18.04.1 | 20.04
 
 **Install Options:**
 * Minimal installation

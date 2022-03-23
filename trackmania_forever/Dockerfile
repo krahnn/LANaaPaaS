@@ -29,7 +29,7 @@ run curl ${TMNF_URL}/${TMNF_ZIP} --output ${TMNF_ZIP} && \
 # For some reason good old wget didn't seem to work with this link...
 arg XASECO_ZIP=xaseco_116.zip
 arg XASECO_URL=http://www.gamers.org/tmn/
-run curl ${XASECO_URL}/${XASECO_ZIP} --output ${XASECO_ZIP} && \
+run curl ${XASECO_URL}/${XASECO_ZIP} -k --output ${XASECO_ZIP} && \
     unzip ./${XASECO_ZIP} && \
     rm ${XASECO_ZIP}
 
